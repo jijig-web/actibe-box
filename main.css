@@ -253,7 +253,14 @@ img.nav-features-icon {
 }
 .work-text p {
     color: white;
-    text-align: cenblock
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 10px;
+    font-weight: 400;
+}
+.work-text:hover {
+    opacity: 1;
 }
 
 /*----------------Team---------------*/

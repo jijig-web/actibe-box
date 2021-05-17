@@ -327,6 +327,65 @@ img.nav-features-icon {
     color: #6c7279;
 }
 
+
+
+
+/*-------------Download--------------*/
+
+
+
+
+.nav-download {
+    height: 340px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-download h1 {
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    color: #2d3033;
+    font-weight: 300;
+}
+.nav-download p {
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    color: #2d3033;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.download-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.link-download {
+    padding: 17px 80px;
+    background-color: #e84545;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    font-weight: 600;
+    transition: background.1s linear;
+}
+.link-download:hover {
+    background-color: #e72929;
+}
+
+
+
+
+
 /* media  */
 @media screen and (max-width: 992px) {
     .container {

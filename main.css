@@ -686,7 +686,7 @@ img.nav-features-icon {
 
 
 /* ----------media-----------  */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
     .container {
         width: 100%;
     }
@@ -697,8 +697,14 @@ img.nav-features-icon {
         height: 120px; 
         padding: 0px 35px;
     }
+    .header-menu {
+        display: flex;
+        align-items: flex-end;
+        width: 100%;
+    }
     .header-menu ul {
         position: absolute;
+        display: flex;
         z-index: 1;
         top: 120px;
         left: 0;
@@ -707,16 +713,18 @@ img.nav-features-icon {
         flex-direction: column;
         align-items: flex-end;
         background-color: #393d63;
-        padding: 300px 0px;
+        padding: 350px 0px;
         align-items: center;
-        display: none;
         font-size: 30px;
+        transform: translateY(-120%);
+        transition: 0.3s;
     }
     .toggle {
         display: flex;
     } 
     .open {
-        display: flex !important;
+        transform: translateY(0) !important;
+        /* display: flex !important; */
     }
     .section {
         height: 100%;
@@ -724,6 +732,7 @@ img.nav-features-icon {
     .section-headline {
         height: auto;
         width: 90%;
+        
     }
     .section-headline h1 {
         font-size: 75px; 
@@ -793,6 +802,14 @@ img.nav-features-icon {
          width: 60%;
          height: 30%;
          border-radius: 3px;
+     }
+
+     .nav-works {
+         height: 1400px;
+     }
+     .nav-work {
+         width: 50%;
+         height: 25%;
      }
 
      .footer-up {
